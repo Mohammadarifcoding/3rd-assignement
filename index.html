@@ -31,6 +31,31 @@
       }
     </style>
   </head>
+  <div class="modal" id="my_modal_8">
+    <div class="modal-box flex items-center justify-center flex-col bg-white">
+      <img src="images/fruit6.png" alt="Apple" class="mb-4 lg:w-32 w-20" />
+      <h2 class="text-2xl text-black font-bold">Apples</h2>
+      <hr class="w-[80%] my-6" />
+
+      <p class="text-gray-500 max-w-xs">
+        Professional employees are there for you to pick the most amazing and
+        fresh fruits.
+      </p>
+      <img src="images/star.svg" alt="" class="my-6" />
+      <div class="modal-action">
+        <a
+          href="#card"
+          class="btn rounded-md bg-white text-[#F85559] border-[#F85559]"
+          >Close</a
+        >
+        <a
+          href="#card"
+          class="btn rounded-md bg-[#F85559] hover:text-[#F85559] text-white border-[#F85559]"
+          >Buy Now</a
+        >
+      </div>
+    </div>
+  </div>
   <body class="lato bg-white">
     <header class="container mx-auto mb-8">
       <nav
@@ -287,9 +312,11 @@
         </div>
 
         <!-- card container -->
-        <div class="mt-4 flex lg:justify-between md:justify-around  items-center gap-5 lg:flex-row flex-col md:flex-wrap md:flex-row sm:flex-wrap sm:flex-row ">
+        <div
+          class="mt-4 flex lg:justify-between md:justify-around items-center gap-5 lg:flex-row flex-col md:flex-wrap md:flex-row sm:flex-wrap sm:flex-row"
+        >
           <!-- Card 1 -->
-          <div class="card  border px-7 border-gray-300">
+          <div class="card border px-7 border-gray-300" id="card">
             <figure class="px-10 pt-10">
               <img src="images/fruit6.png" alt="Apple" class="rounded-xl" />
             </figure>
@@ -299,53 +326,14 @@
               <p class="text-gray-500">Apples</p>
               <img src="images/star.svg" alt="" class="my-6" />
               <div class="card-actions">
-                <button
-                  class="text-lg text-red-500"
-                  onclick="my_modal_1.showModal()"
-                >
-                  details
-                </button>
-
-                <!-- Pop Up model -->
-                <dialog id="my_modal_1" class="modal">
-                  <form
-                    method="dialog"
-                    class="modal-box flex items-center justify-center flex-col bg-white"
-                  >
-                    <img
-                      src="images/fruit6.png"
-                      alt="Apple"
-                      class="mb-4 w-36"
-                    />
-                    <h2 class="text-2xl text-black font-bold">Apples</h2>
-                    <hr class="w-[80%] my-6" />
-
-                    <p class="text-gray-500 max-w-xs">
-                      Professional employees are there for you to pick the most
-                      amazing and fresh fruits.
-                    </p>
-                    <img src="images/star.svg" alt="" class="my-6" />
-                    <div class="modal-action">
-                      <button
-                        class="btn rounded-md bg-white text-[#F85559] border-[#F85559]"
-                      >
-                        Close
-                      </button>
-                      <button
-                        class="btn rounded-md bg-[#F85559] hover:text-[#F85559] text-white border-[#F85559]"
-                      >
-                        Buy Now
-                      </button>
-                    </div>
-                  </form>
-                </dialog>
+                <a href="#my_modal_8" class="text-lg text-red-500">Details</a>
               </div>
             </div>
           </div>
 
           <!-- Card 2 -->
 
-          <div class="card  border px-7 border-gray-300">
+          <div class="card border px-7 border-gray-300" id="card">
             <figure class="px-10 pt-10">
               <img src="images/fruit6.png" alt="Apple" class="rounded-xl" />
             </figure>
@@ -355,51 +343,14 @@
               <p class="text-gray-500">Apples</p>
               <img src="images/star.svg" alt="" class="my-6" />
               <div class="card-actions">
-                <button
-                  class="text-lg text-red-500"
-                  onclick="my_modal_1.showModal()"
-                >
-                  details
-                </button>
-                <dialog id="my_modal_1" class="modal">
-                  <form
-                    method="dialog"
-                    class="modal-box flex items-center justify-center flex-col bg-white"
-                  >
-                    <img
-                      src="images/fruit6.png"
-                      alt="Apple"
-                      class="mb-4 w-36"
-                    />
-                    <h2 class="text-2xl text-black font-bold">Apples</h2>
-                    <hr class="w-[80%] my-6" />
-
-                    <p class="text-gray-500 max-w-xs">
-                      Professional employees are there for you to pick the most
-                      amazing and fresh fruits.
-                    </p>
-                    <img src="images/star.svg" alt="" class="my-6" />
-                    <div class="modal-action">
-                      <button
-                        class="btn rounded-md bg-white text-[#F85559] border-[#F85559]"
-                      >
-                        Close
-                      </button>
-                      <button
-                        class="btn rounded-md bg-[#F85559] hover:text-[#F85559] text-white border-[#F85559]"
-                      >
-                        Buy Now
-                      </button>
-                    </div>
-                  </form>
-                </dialog>
+                <a href="#my_modal_8" class="text-lg text-red-500">Details</a>
               </div>
             </div>
           </div>
 
           <!-- Card 3 -->
 
-          <div class="card border px-7 border-gray-300">
+          <div class="card border px-7 border-gray-300" id="card">
             <figure class="px-10 pt-10">
               <img src="images/fruit6.png" alt="Apple" class="rounded-xl" />
             </figure>
@@ -409,54 +360,14 @@
               <p class="text-gray-500">Apples</p>
               <img src="images/star.svg" alt="" class="my-6" />
               <div class="card-actions">
-                <button
-                  class="text-lg text-red-500"
-                  onclick="my_modal_1.showModal()"
-                >
-                  details
-                </button>
-                <dialog id="my_modal_1" class="modal">
-                  <form
-                    method="dialog"
-                    class="modal-box flex items-center justify-center flex-col bg-white"
-                  >
-                    <img
-                      src="images/fruit6.png"
-                      alt="Apple"
-                      class="mb-4 w-36"
-                    />
-                    <h2 class="text-2xl text-black font-bold">Apples</h2>
-                    <hr class="w-[80%] my-6" />
-
-                    <p class="text-gray-500 max-w-xs">
-                      Professional employees are there for you to pick the most
-                      amazing and fresh fruits.
-                    </p>
-                    <img src="images/star.svg" alt="" class="my-6" />
-                    <div class="modal-action">
-                      <button
-                        class="btn rounded-md bg-white text-[#F85559] border-[#F85559]"
-                      >
-                        Close
-                      </button>
-                      <button
-                        class="btn rounded-md bg-[#F85559] hover:text-[#F85559] text-white border-[#F85559]"
-                      >
-                        Buy Now
-                      </button>
-                    </div>
-                  </form>
-                </dialog>
+                <a href="#my_modal_8" class="text-lg text-red-500">Details</a>
               </div>
             </div>
           </div>
 
-
           <!-- Card 4 -->
 
-
-
-          <div class="card  border px-7 border-gray-300">
+          <div class="card border px-7 border-gray-300" id="card">
             <figure class="px-10 pt-10">
               <img src="images/fruit6.png" alt="Apple" class="rounded-xl" />
             </figure>
@@ -466,65 +377,14 @@
               <p class="text-gray-500">Apples</p>
               <img src="images/star.svg" alt="" class="my-6" />
               <div class="card-actions">
-                <button
-                  class="text-lg text-red-500"
-                  onclick="my_modal_1.showModal()"
-                >
-                  details
-                </button>
-                <dialog id="my_modal_1" class="modal">
-                  <form
-                    method="dialog"
-                    class="modal-box flex items-center justify-center flex-col bg-white"
-                  >
-                    <img
-                      src="images/fruit6.png"
-                      alt="Apple"
-                      class="mb-4 w-36"
-                    />
-                    <h2 class="text-2xl text-black font-bold">Apples</h2>
-                    <hr class="w-[80%] my-6" />
-
-                    <p class="text-gray-500 max-w-xs">
-                      Professional employees are there for you to pick the most
-                      amazing and fresh fruits.
-                    </p>
-                    <img src="images/star.svg" alt="" class="my-6" />
-                    <div class="modal-action">
-                      <button
-                        class="btn rounded-md bg-white text-[#F85559] border-[#F85559]"
-                      >
-                        Close
-                      </button>
-                      <button
-                        class="btn rounded-md bg-[#F85559] hover:text-[#F85559] text-white border-[#F85559]"
-                      >
-                        Buy Now
-                      </button>
-                    </div>
-                  </form>
-                </dialog>
+                <a href="#my_modal_8" class="text-lg text-red-500">Details</a>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      <!-- Modal toggle
-<div class="my-48 mx-auto ">
 
-<button class="btn" onclick="my_modal_1.showModal()">open modal</button>
-<dialog id="my_modal_1" class="modal">
-  <form method="dialog" class="modal-box">
-    <h3 class="font-bold text-lg">Hello!</h3>
-    <p class="py-4">Press ESC key or click the button below to close</p>
-    <div class="modal-action">
-     
-      <button class="btn">Close</button>
-    </div>
-  </form>
-</dialog>
-</div> -->
     </main>
   </body>
 </html>
