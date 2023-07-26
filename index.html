@@ -31,7 +31,9 @@
       }
     </style>
   </head>
-  <div class="modal" id="my_modal_8">
+
+  <!-- first card modal -->
+  <div class="modal lato" id="care-modal-1">
     <div class="modal-box flex items-center justify-center flex-col bg-white">
       <img src="images/fruit6.png" alt="Apple" class="mb-4 lg:w-32 w-20" />
       <h2 class="text-2xl text-black font-bold">Apples</h2>
@@ -44,26 +46,110 @@
       <img src="images/star.svg" alt="" class="my-6" />
       <div class="modal-action">
         <a
-          href="#card"
+          href="#card1"
           class="btn rounded-md bg-white text-[#F85559] border-[#F85559]"
           >Close</a
         >
         <a
-          href="#card"
+          href="#card1"
           class="btn rounded-md bg-[#F85559] hover:text-[#F85559] text-white border-[#F85559]"
           >Buy Now</a
         >
       </div>
     </div>
   </div>
+
+  <!-- second card modal -->
+  <div class="modal lato" id="care-modal-2">
+    <div class="modal-box flex items-center justify-center flex-col bg-white">
+      <img src="images/fruit7.png" alt="Apple" class="mb-4 lg:w-32 w-20" />
+      <h2 class="text-2xl text-black font-bold">Orange</h2>
+      <hr class="w-[80%] my-6" />
+
+      <p class="text-gray-500 max-w-xs">
+        Professional employees are there for you to pick the most amazing and
+        fresh fruits.
+      </p>
+      <img src="images/star.svg" alt="" class="my-6" />
+      <div class="modal-action">
+        <a
+          href="#card2"
+          class="btn rounded-md bg-white text-[#F85559] border-[#F85559]"
+          >Close</a
+        >
+        <a
+          href="#card2"
+          class="btn rounded-md bg-[#F85559] hover:text-[#F85559] text-white border-[#F85559]"
+          >Buy Now</a
+        >
+      </div>
+    </div>
+  </div>
+
+  <!-- third card modal -->
+  <div class="modal lato" id="care-modal-3">
+    <div class="modal-box flex items-center justify-center flex-col bg-white">
+      <img src="images/fruit8.png" alt="Apple" class="mb-4 lg:w-32 w-20" />
+      <h2 class="text-2xl text-black font-bold">Red Dragon</h2>
+      <hr class="w-[80%] my-6" />
+
+      <p class="text-gray-500 max-w-xs">
+        Professional employees are there for you to pick the most amazing and
+        fresh fruits.
+      </p>
+      <img src="images/star.svg" alt="" class="my-6" />
+      <div class="modal-action">
+        <a
+          href="#card3"
+          class="btn rounded-md bg-white text-[#F85559] border-[#F85559]"
+          >Close</a
+        >
+        <a
+          href="#card3"
+          class="btn rounded-md bg-[#F85559] hover:text-[#F85559] text-white border-[#F85559]"
+          >Buy Now</a
+        >
+      </div>
+    </div>
+  </div>
+
+  <!-- fourth card modal -->
+  <div class="modal lato" id="care-modal-4">
+    <div class="modal-box flex items-center justify-center flex-col bg-white">
+      <img src="images/fruit9.png" alt="Apple" class="mb-4 lg:w-32 w-20" />
+      <h2 class="text-2xl text-black font-bold">Banana</h2>
+      <hr class="w-[80%] my-6" />
+
+      <p class="text-gray-500 max-w-xs">
+        Professional employees are there for you to pick the most amazing and
+        fresh fruits.
+      </p>
+      <img src="images/star.svg" alt="" class="my-6" />
+      <div class="modal-action">
+        <a
+          href="#card4"
+          class="btn rounded-md bg-white text-[#F85559] border-[#F85559]"
+          >Close</a
+        >
+        <a
+          href="#card4"
+          class="btn rounded-md bg-[#F85559] hover:text-[#F85559] text-white border-[#F85559]"
+          >Buy Now</a
+        >
+      </div>
+    </div>
+  </div>
+
+  <!-- body -->
+
   <body class="lato bg-white">
     <header class="container mx-auto mb-8">
       <nav
-        class="lg:bg-[#F85559] bg-white lg:my-4 lg:rounded-full rounded-none px-5 py-3 flex justify-between items-center"
+        class="lg:bg-[#F85559] bg-white lg:my-8 lg:rounded-full rounded-none px-5 py-3 flex justify-between items-center"
       >
         <!-- Nav bar menu -->
         <div class="text-white nav lg:block hidden">
-          <ul class="flex list-none gap-7">
+          <ul class="flex list-none gap-6">
             <li class="text-lg">Home</li>
             <li class="text-lg">About Us</li>
             <li class="text-lg">Shop</li>
@@ -83,7 +169,7 @@
             <input
               type="text"
               placeholder="Search"
-              class="focus:outline-none placeholder:text-[16px]"
+              class="focus:outline-none placeholder:text-[16px] pr-14"
             />
             <img src="images/Frame.svg" alt="" />
           </button>
@@ -117,9 +203,7 @@
       <section class="">
         <div class="carousel w-full">
           <!-- slider 1 -->
-          <div
-            id="slide1"
-            class="carousel-item relative w-full max-h-[500px] min-h-[400px]"
+          <div id="slide1" class="carousel-item relative w-full  h-full min-h-[300px]"
           >
             <img src="images/banner1.png" class="w-full" />
             <div class="absolute background-linear hero-overlay"></div>
@@ -148,9 +232,7 @@
           </div>
 
           <!-- slider 2 -->
-          <div
-            id="slide2"
-            class="carousel-item relative w-full max-h-[500px] min-h-[400px]"
+          <div id="slide2" class="carousel-item relative w-full   h-full min-h-[300px]"
           >
             <img src="images/banner2.png" class="w-full" />
             <div class="absolute background-linear hero-overlay"></div>
@@ -180,9 +262,7 @@
           </div>
 
           <!-- slider 3 -->
-          <div
-            id="slide3"
-            class="carousel-item relative w-full max-h-[500px] min-h-[400px]"
+          <div id="slide3" class="carousel-item relative w-full   h-full min-h-[300px]"
           >
             <img src="images/banner3.png" class="w-full" />
             <div class="absolute background-linear hero-overlay"></div>
@@ -213,9 +293,7 @@
 
           <!-- slider 4 -->
 
-          <div
-            id="slide4"
-            class="carousel-item relative w-full max-h-[500px] min-h-[400px]"
+          <div id="slide4" class="carousel-item relative w-full   h-full min-h-[300px]"
           >
             <img src="images/banner4.png" class="w-full" />
             <div class="absolute background-linear hero-overlay"></div>
@@ -316,7 +394,7 @@
           class="mt-4 flex lg:justify-between md:justify-around items-center gap-5 lg:flex-row flex-col md:flex-wrap md:flex-row sm:flex-wrap sm:flex-row"
         >
           <!-- Card 1 -->
-          <div class="card border px-7 border-gray-300" id="card">
+          <div class="card border px-7 border-gray-300" id="card1">
             <figure class="px-10 pt-10">
               <img src="images/fruit6.png" alt="Apple" class="rounded-xl" />
             </figure>
@@ -326,58 +404,58 @@
               <p class="text-gray-500">Apples</p>
               <img src="images/star.svg" alt="" class="my-6" />
               <div class="card-actions">
-                <a href="#my_modal_8" class="text-lg text-red-500">Details</a>
+                <a href="#care-modal-1" class="text-lg text-red-500">Details</a>
               </div>
             </div>
           </div>
 
           <!-- Card 2 -->
 
-          <div class="card border px-7 border-gray-300" id="card">
+          <div class="card border px-7 border-gray-300" id="card2">
             <figure class="px-10 pt-10">
-              <img src="images/fruit6.png" alt="Apple" class="rounded-xl" />
+              <img src="images/fruit7.png" alt="Apple" class="rounded-xl" />
             </figure>
             <div class="card-body items-center text-center">
               <h2 class="text-2xl text-black font-bold">12.90$ - 18.85$</h2>
               <hr class="w-[80%] my-6" />
-              <p class="text-gray-500">Apples</p>
+              <p class="text-gray-500">Orange</p>
               <img src="images/star.svg" alt="" class="my-6" />
               <div class="card-actions">
-                <a href="#my_modal_8" class="text-lg text-red-500">Details</a>
+                <a href="#care-modal-2" class="text-lg text-red-500">Details</a>
               </div>
             </div>
           </div>
 
           <!-- Card 3 -->
 
-          <div class="card border px-7 border-gray-300" id="card">
+          <div class="card border px-7 border-gray-300" id="card3">
             <figure class="px-10 pt-10">
-              <img src="images/fruit6.png" alt="Apple" class="rounded-xl" />
+              <img src="images/fruit8.png" alt="Apple" class="rounded-xl" />
             </figure>
             <div class="card-body items-center text-center">
               <h2 class="text-2xl text-black font-bold">12.90$ - 18.85$</h2>
               <hr class="w-[80%] my-6" />
-              <p class="text-gray-500">Apples</p>
+              <p class="text-gray-500">Red Dragon</p>
               <img src="images/star.svg" alt="" class="my-6" />
               <div class="card-actions">
-                <a href="#my_modal_8" class="text-lg text-red-500">Details</a>
+                <a href="#care-modal-3" class="text-lg text-red-500">Details</a>
               </div>
             </div>
           </div>
 
           <!-- Card 4 -->
 
-          <div class="card border px-7 border-gray-300" id="card">
+          <div class="card border px-7 border-gray-300" id="card4">
             <figure class="px-10 pt-10">
-              <img src="images/fruit6.png" alt="Apple" class="rounded-xl" />
+              <img src="images/fruit9.png" alt="Apple" class="rounded-xl" />
             </figure>
             <div class="card-body items-center text-center">
               <h2 class="text-2xl text-black font-bold">12.90$ - 18.85$</h2>
               <hr class="w-[80%] my-6" />
-              <p class="text-gray-500">Apples</p>
+              <p class="text-gray-500">Banana</p>
               <img src="images/star.svg" alt="" class="my-6" />
               <div class="card-actions">
-                <a href="#my_modal_8" class="text-lg text-red-500">Details</a>
+                <a href="#care-modal-4" class="text-lg text-red-500">Details</a>
               </div>
             </div>
           </div>
@@ -385,6 +463,84 @@
       </section>
 
 
+
+<!-- team section -->
+      <section class="container mx-auto my-10">
+        <div
+          class="hero mt-20"
+          style="background-image: url(images/banner1.png)"
+        >
+          <div class="hero-overlay bg-black bg-opacity-75"></div>
+          <div
+            class="hero-content text-center text-white  py-10 lg:px-16 px-5"
+          >
+            <div class="flex flex-col w-[80%]">
+              <div class="mb-10">
+                <h1 class="mb-5 text-4xl font-bold">Meet the team section</h1>
+                <p class="mb-5">
+                  Contrary to popular belief, is not simply random text. It has
+                  roots in a piece of 
+                  classical Latin literature from 45 BC, making it over 2000
+                  years old.
+                </p>
+              </div>
+              <div
+                class="max-w-7xl  flex lg:justify-center justify-center md:justify-center items-center gap-10 lg:flex-row flex-col md:flex-wrap md:flex-row sm:flex-wrap sm:flex-row"
+              >
+                <div class="items-center  flex-col justify-center flex">
+                  <img src="images/member1.png" class="w-28 mb-6" alt="" />
+                  <h1 class="text-2xl">Awlad Hossain</h1>
+                  <p class="mb-4">Fruits Expert</p>
+                  <div class="flex flex-row gap-3 ">
+                    <img src="images/facebook 1.svg" alt="">
+                    <img src="images/twitter (1) 1.svg" alt="">
+                    <img src="images/linkedin 1.svg" alt="">
+                  </div>
+                </div>
+                <div class="items-center  flex-col justify-center flex">
+                  <img src="images/member2.png" class="w-28 mb-6" alt="" />
+                  <h1 class="text-2xl">Safia Chowdhury</h1>
+                  <p class="mb-4">Fruits Expert</p>
+                  <div class="flex flex-row gap-3 ">
+                    <img src="images/facebook 1.svg" alt="">
+                    <img src="images/twitter (1) 1.svg" alt="">
+                    <img src="images/linkedin 1.svg" alt="">
+                  </div>
+                </div>
+                <div class="items-center  flex-col justify-center flex">
+                  <img src="images/member3.png" class="w-28 mb-6" alt="" />
+                  <h1 class="text-2xl">Rokib Hossain</h1>
+                  <p class="mb-4">Fruits Expert</p>
+                  <div class="flex flex-row gap-3 ">
+                    <img src="images/facebook 1.svg" alt="">
+                    <img src="images/twitter (1) 1.svg" alt="">
+                    <img src="images/linkedin 1.svg" alt="">
+                  </div>
+                </div>
+                <div class="items-center  flex-col justify-center flex">
+                  <img src="images/member4.png" class="w-28 mb-6" alt="" />
+                  <h1 class="text-2xl">Chaity</h1>
+                  <p class="mb-4">Fruits Expert</p>
+                  <div class="flex flex-row gap-3 ">
+                    <img src="images/facebook 1.svg" alt="">
+                    <img src="images/twitter (1) 1.svg" alt="">
+                    <img src="images/linkedin 1.svg" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- Why choose us section -->
+       
+      <section class="container mx-auto my-10">
+
+        
+
+      </section>
     </main>
   </body>
 </html>
